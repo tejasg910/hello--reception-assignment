@@ -62,7 +62,10 @@ body {
   border-radius: 7px;
   color: var(--VeryLightGrayishBlue);
   padding: 0.5rem 3rem;
-  background: linear-gradient(to right, hsl(237, 63%, 64%), hsl(236, 72%, 79%));
+  background: linear-gradient(
+    to right,
+    hsl(236, 72%, 79%) to hsl(237, 63%, 64%)
+  );
   border: 1px solid transparent;
   font-weight: bold;
   transition: all 0.5s;
@@ -137,7 +140,7 @@ body {
 
 .professional {
   height: 420px;
-  background: linear-gradient(150deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  background: linear-gradient(150deg, hsl(236, 72%, 79%) to hsl(237, 63%, 64%));
   color: var(--VeryLightGrayishBlue);
 }
 input[type="checkbox"] {
