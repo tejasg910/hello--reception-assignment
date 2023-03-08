@@ -14,6 +14,7 @@
 }
 
 body {
+  font-family: "Montserrat", sans-serif;
 }
 
 .main {
@@ -23,7 +24,7 @@ body {
   background-repeat: no-repeat;
   background-position: top -37px right -195px, bottom left;
   background-color: var(--VeryLightGrayishBlue);
-  font-family: "Montserrat", sans-serif;
+
   font-size: 0.9rem;
   min-height: 100vh;
   width: 100vw;
